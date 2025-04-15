@@ -11,11 +11,13 @@
         "start": "node --env-file=.env server.js",
         "dev": "node --env-file=.env --watch server.js"
     },
-    "jest" : {
+    "jest": {
         "collectCoverage": true,
-        "coveragePathIgnorePatterns" :["/node_modules","/logs"]
+        "coveragePathIgnorePatterns": [
+            "/node_modules",
+            "/logs"
+        ]
     },
-    
     "dependencies": {
         "bcrypt": "^5.1.1",
         "cors": "^2.8.5",
